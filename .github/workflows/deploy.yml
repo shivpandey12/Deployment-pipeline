@@ -6,7 +6,7 @@ on:
       - main
  
 env:
-  GCLOUD_PROJECT: 'empyrean-bridge-426118-q3'
+  GCLOUD_PROJECT: 'alien-array-424906-i8'
   CLUSTER_NAME: 'shiv-cluster'
   CLUSTER_ZONE: 'us-central1-c'
  
@@ -61,4 +61,3 @@ jobs:
         kubectl apply -f Deployment.yml -n ${{ github.event.inputs.NAMESPACE }}
         kubectl apply -f ingress.yml -n ${{ github.event.inputs.NAMESPACE }}
  
-        
