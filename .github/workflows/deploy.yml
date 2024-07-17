@@ -7,7 +7,7 @@ on:
  
 env:
   GCLOUD_PROJECT: 'empyrean-bridge-426118-q3'
-  CLUSTER_NAME: 'cluster-1'
+  CLUSTER_NAME: 'shiv-cluster'
   CLUSTER_ZONE: 'us-central1-c'
  
 jobs:
